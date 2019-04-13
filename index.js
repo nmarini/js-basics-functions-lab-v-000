@@ -13,3 +13,7 @@ function distanceFromHqInFeet (blockNumber) {
 function distanceTravelledInFeet (startBlock, endBlock) {
   return startBlock < endBlock ? (endBlock - startBlock) * 264 : (startBlock - endBlock) * 264
 }
+
+function calculatesFarePrice (startBlock, endBlock) { 
+  
+}
