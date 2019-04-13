@@ -20,7 +20,7 @@ function calculatesFarePrice (startBlock, endBlock) {
   } else if (distanceTravelledInFeet(startBlock, endBlock) > 2000) {
       return 25;
   } else if (distanceTravelledInFeet(startBlock, endBlock) > 400) {
-      return (distanceTravelledInFeet(startBlock, endBlock) - 400 ) * 2;
+      return (distanceTravelledInFeet(startBlock, endBlock) - 400 ) * .02;
   } else {
       return 0;
     }
